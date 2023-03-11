@@ -5,9 +5,6 @@
     background-repeat:no-repeat;
     background-size:100% 100%;
 }
-.divv{
-    position:relative;
-}
 .container h1{
     background-image:url("https://cdn-icons-png.flaticon.com/128/3178/3178294.png");
     background-repeat:no-repeat;
@@ -17,10 +14,10 @@
     margin-left:50px;
     font-size:40px;
     margin-top:5px;
-    color:white;
-    border:2px solid black;
+    color:#FFFFFF;
+    border:2px solid #000000;
     border-radius:13px;
-    background-color:grey;
+    background-color:#808080;
 }
 .images{
     display:flex;
@@ -30,7 +27,7 @@
 .images img{
     height:230px;
     width:500px;
-    border:5px solid white;
+    border:5px solid #FFFFFF;
     overflow:hidden;
     margin-left:20px;
     margin-bottom:5px;
@@ -54,7 +51,7 @@
     right:10px;
     font-size:25px;
     cursor:pointer;
-    color:red;
+    color:#FF0000;
     margin-bottom:550px;
 
 }
@@ -62,9 +59,6 @@
     height:60%;
     width:60%;
     margin-left:220px;
-    border:5px solid black;
+    border:5px solid #000000;
     position:absolute;
 }
-
-
-
