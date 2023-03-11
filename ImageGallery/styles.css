@@ -1,11 +1,26 @@
 .container{
     box-sizing:border-box;
     position:fixed;
+    background-image:url("https://images3.alphacoders.com/276/276565.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+.divv{
+    position:relative;
 }
 .container h1{
+    background-image:url("https://cdn-icons-png.flaticon.com/128/3178/3178294.png");
+    background-repeat:no-repeat;
+    background-size:contain;
     text-align:center;
+    width:90%;
+    margin-left:50px;
     font-size:40px;
     margin-top:5px;
+    color:white;
+    border:2px solid black;
+    border-radius:13px;
+    background-color:grey;
 }
 .images{
     display:flex;
@@ -13,11 +28,13 @@
     margin-left:80px;
 }
 .images img{
-    height:250px;
+    height:230px;
     width:500px;
+    border:5px solid white;
     overflow:hidden;
-    margin-left:10px;
+    margin-left:20px;
     margin-bottom:5px;
+    border-radius:25px;
     flex-direction:row;
     cursor:pointer;
 }
@@ -37,7 +54,7 @@
     right:10px;
     font-size:25px;
     cursor:pointer;
-    color:blue;
+    color:red;
     margin-bottom:550px;
 
 }
@@ -45,6 +62,7 @@
     height:60%;
     width:60%;
     margin-left:220px;
+    border:5px solid black;
     position:absolute;
 }
 
