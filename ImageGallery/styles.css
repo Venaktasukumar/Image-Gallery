@@ -44,7 +44,8 @@
     height:100%;
     position:fixed;
     z-index:100;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
 }
 .light-box .close-button{
     position:absolute;
@@ -52,13 +53,12 @@
     font-size:25px;
     cursor:pointer;
     color:#FF0000;
-    margin-bottom:550px;
+    top:0;
 
 }
 .light-box img{
     height:60%;
     width:60%;
-    margin-left:220px;
     border:5px solid #000000;
     position:absolute;
 }
